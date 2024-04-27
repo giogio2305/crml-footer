@@ -1,0 +1,297 @@
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+    @import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+    @import url("https://creativemilkshake.com/cdn/shop/t/27/assets/all.min.css?v=44728044530659099931660033155");
+
+    .sora {
+        font-family: "Sora", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+    #footer{
+        color: #888;
+        border-top: 0px solid #e9e7e7;
+    }
+    #footer .footer{
+        padding-top: 40px;
+        padding-bottom:40px; 
+        background-color: rgba(36, 36, 35, 1);
+        color: rgba(254, 250, 224, 1);
+    }
+    #footer .footer .container {
+        padding-right: 1.5rem !important;
+        padding-left: 1.5rem !important;
+    }
+
+.fr{
+    width: 100%;
+    display: flex;
+    align-items: center !important;
+    justify-content: space-between;
+}
+.fr .lc{
+    display: block;
+    width:38%;
+}
+.fr .rc{
+    width: 52%;
+    margin: 8px 0;
+    display: flex;
+}
+#footer .footer .container .fr .rc .col-4 {
+    width: 30%;
+    margin: 0 8px;
+    text-align: left;
+}
+#footer .footer .container .fr .rc .col-4 h5{
+    color: rgba(254, 250, 224, 1);
+    text-transform: uppercase;
+    font-size: 18px;
+}
+#footer .footer .container .fr .rc .col-4 ul.footer-links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#footer .footer .container .fr .rc .col-4 ul.footer-links li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 2.75;
+    font-size: 14px;
+}
+#footer .footer .container .fr .rc .col-4 ul.footer-links li a{
+    color: #FEFAE0;
+    text-decoration: none;
+    outline: none;
+}
+    .col-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+#footer .footer .container .fr .lc .footer-logo{
+    margin-bottom: 1.5rem !important;
+}
+#footer .footer .container .fr .lc .footer-logo .img-mob{
+    display: none;
+    max-width: 100% !important;
+}
+#footer .footer .container .fr .lc .footer-logo  .img-pc{
+    display: block !important;
+    max-width: 100% !important;
+}
+#footer .footer .container .fr .lc .footer-info p {
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+#footer .footer .container .fr .rc .copyright{
+    text-align: left;
+    font-size: 12px;
+    opacity: .3;
+    display: inline-flex;
+}
+#footer .footer .container .fr .rc .copyright .break{
+    display: none;
+}
+#footer .footer .container .fr .rc .copyright .dot{
+    display: block;
+}
+#footer .footer .container .fr .rc .copyright a {
+    text-decoration: none;
+    color: #FEFAE0;
+}
+
+#footer .footer .container .fr .rc .copyright > * {
+    margin: 0 1.8px;
+}
+#footer .footer .container .fr .contact-form .wrap{
+    position:relative;
+}
+#footer .footer .container .fr .contact-form .wrap input, button{
+    border:none;
+    background-color:transparent;
+    color:#FEFAE0;
+    font-size:14px;
+    padding:13px 0;
+    }
+#footer .footer .container .fr .contact-form .wrap input{
+        width:100%;
+        display:block;
+        border-bottom:solid 2px #FEFAE0;
+        }
+#footer .footer .container .fr .contact-form .wrap input::placeholder{
+    color:#FEFAE0;
+    }
+#footer .footer .container .fr .contact-form .wrap button{
+    position:absolute;
+    top:0;
+    right:0;
+    }
+
+#footer .footer .container .fr .form-mob{
+    display: none;
+}
+#footer .footer .container .fr .form-pc{
+    display: block;
+}
+
+
+    @media (max-width: 767.98px) {
+        #footer .footer .container .fr .lc .footer-logo .footer-logo img {
+        width: 100%;
+    }
+    #footer .footer .container .fr .rc .col-4 {
+    width: 33.333%;
+    margin: 0 4px;
+    padding: 0 3px;
+    text-align: left;
+    }
+    #footer .footer .container .fr .rc .col-4 h5{
+        font-size: 14px;
+        text-align: left;
+    }
+     .footer-info p {
+        font-size: 14px;
+    }
+    #footer .footer .container .fr .rc .col-4 .footer-links {
+        text-align: left;
+    }
+    #footer .footer .container .fr .rc .col-4 .footer-links li {
+        line-height: 2.75;
+    }
+    #footer .footer .container .fr .rc .col-4 .footer-links li a,
+     form#footer .footer .container .fr .contact-form .wrap input,
+     form#footer .footer .container .fr .contact-form .wrap button {
+        font-size: 12px;
+    }
+#footer .footer .container .fr{
+    flex-direction: column;
+    justify-content: center;
+}
+#footer .footer .container .fr .rc,     #footer .footer .container .fr .lc {
+    width: 100%;
+    margin: 16px 0;
+}
+
+#footer .footer .container .fr .lc .footer-logo .img-mob{
+    display: block;
+    max-width: 100% !important;
+}
+#footer .footer .container .fr .lc .footer-logo  .img-pc{
+    display: none !important;
+    max-width: 100% !important;
+}
+
+.form-mob{
+    display: block;
+    width: 100%;
+}
+.form-pc{
+    display: none;
+}
+#footer .footer .container .fr .rc .copyright {
+    text-align: center;
+    display: block;
+    font-size: 10px;
+    margin: 0 auto;
+}
+#footer .footer .container .fr .rc .copyright .dot{
+    display: none;
+}
+#footer .footer .container .fr .rc .copyright .break{display: block;}
+}
+
+</style>
+
+
+<footer id="footer" class="shopify-section app_footer">
+
+    <div class="footer sora">
+      <div class="container">
+        <div class="fr">
+          <div class="lc">
+            <div class="footer-logo mb-4">
+              <img src="https://creativemilkshake.com/cdn/shop/files/CM_Wordmark_HOR_x150.png?v=1687446732" class="img-pc" loading="lazy">
+              <img src="https://creativemilkshake.com/cdn/shop/files/CM_Wordmark_HOR_x90.png?v=1687446732" class="img-mob" loading="lazy">
+            </div>
+            <div class="footer-info"><p>Data-driven creative strategy and content solution for DTC brands. </p>
+    </div>
+          </div>
+
+
+        <div class="form-mob">
+    <form method="post" action="/contact#contact_form" id="contact_form" accept-charset="UTF-8" class="contact-form"><input type="hidden" name="form_type" value="customer"><input type="hidden" name="utf8" value="✓">
+      <div class="wrap mb-0">
+        <input type="hidden" name="contact[tags]" value="newsletter">
+        <input type="email" name="contact[email]" value="" placeholder="ENTER YOUR EMAIL TO SUBSCRIBE" autocomplete="off" autocapitalize="off" spellcheck="false">
+        <button type="submit"><i class="far fa-arrow-right"></i></button>
+      </div></form>
+        </div>
+
+          <div class="rc">
+                  <div class="col-4">
+                    <h5 >Work</h5>
+                    <ul class="footer-links">
+                        
+                          <li><a href="/pages/ugc-ads">Our Work</a></li>
+                        
+                          <li><a href="/pages/our-process">Our Process</a></li>
+                        
+                          <li><a href="/pages/pricing">Pricing</a></li>
+                        
+                      </ul>
+                      </div>
+                
+                  <div class="col-4">
+                    <h5>Team</h5>
+                    <ul class="footer-links">
+                        
+                          <li><a href="/pages/about-v2">About Us</a></li>
+                        
+                          <li><a href="/pages/careers">Careers</a></li>
+                        
+                          <li><a href="/pages/contact">Contact Us</a></li>
+                        
+                          <li><a href="/pages/content-creators">For Creators</a></li>
+                        
+                      </ul></div>
+                
+                  <div class="col-4">
+                    <h5>Follow</h5>
+                    <ul class="footer-links">
+                        
+                          <li><a href="https://instagram.com/creativemilkshake" target="_blank">Instagram</a></li>
+                        
+                          <li><a href="https://facebook.com/creativemilkshakeofficial" target="_blank">Facebook</a></li>
+                        
+                          <li><a href="https://www.linkedin.com/company/creative-milkshake" target="_blank">LinkedIn</a></li>
+                        
+                          <li><a href="/pages/get-inspired">DTC Ad Spy</a></li>
+                        
+                      </ul></div>
+                
+            
+          </div>
+        </div>
+
+
+        <div class="fr">
+          <div class="lc">
+    <form method="post" action="/contact#contact_form" id="contact_form" accept-charset="UTF-8" class="form-pc contact-form m-0" data-cptcha="true" data-recaptcha-bound="true"><input type="hidden" name="form_type" value="customer"><input type="hidden" name="utf8" value="✓">
+      <div class="wrap mb-0">
+        <input type="hidden" name="contact[tags]" value="newsletter">
+        <input type="email" name="contact[email]" value="" placeholder="ENTER YOUR EMAIL TO SUBSCRIBE" autocomplete="off" autocapitalize="off" spellcheck="false" data-listener-added_3d92c9a7="true">
+        <button type="submit"><i class="far fa-arrow-right"></i></button>
+      </div></form>
+    </div>
+          <div class="rc">
+            <p class="copyright">SPRITZ HK LIMITED <span class="dot">•</span> © All Rights Reserved <span class="dot">•</span> <br class="break"><a href="/policies/terms-of-service">Terms of Service</a> • <a href="/policies/privacy-policy">Privacy Policy</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    </footer>
